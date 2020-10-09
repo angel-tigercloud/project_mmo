@@ -34,7 +34,7 @@ public class XPOverlayGUI extends Gui
 	private static FontRenderer fontRenderer = Minecraft.getMinecraft().fontRenderer;
 	private static boolean guiKey = false;
 	private static boolean guiPressed = false;
-	private static boolean guiOn = true;
+	private static boolean guiOn = false;
 	private final ResourceLocation bar = new ResourceLocation( Reference.MOD_ID, "textures/gui/xpbar.png" );
 	private static ArrayList<XpDrop> xpDrops = new ArrayList<XpDrop>();
 	private static Minecraft minecraft = Minecraft.getMinecraft();
